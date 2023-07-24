@@ -18,7 +18,7 @@ public class WhileLoopExecutor {
 			i++;
 		}
 		
-		System.out.println("\nN to 1");
+		System.out.println("\nN to 1:");
 		
 		while(n>=1) {
 			System.out.print(n + " ");
