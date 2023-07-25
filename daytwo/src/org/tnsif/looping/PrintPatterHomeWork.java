@@ -20,8 +20,9 @@ public class PrintPatterHomeWork {
 			System.out.println();
 		}
 		
-		System.out.println("Enter digit: ");
 		
+		//Print the number of digit using do...while
+		System.out.println("Enter digit: ");
 		long number = sc.nextLong();
 		
 		int count=0;
