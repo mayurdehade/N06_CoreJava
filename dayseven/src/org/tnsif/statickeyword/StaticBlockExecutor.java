@@ -21,7 +21,7 @@ public class StaticBlockExecutor {
 	public static void main(String[] args) {
 		// main function is static and hence it calls static block, method and variables by default
 		print();
-		System.out.println("salary");
+		System.out.println(salary);
 	}
 
 }
