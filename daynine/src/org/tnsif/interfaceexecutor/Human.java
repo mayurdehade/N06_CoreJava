@@ -7,6 +7,7 @@ public class Human implements ColdDrink, AlcoholDrinks {
 	public void showDrink() {
 		
 		System.out.println(colddrinkName + " "+alcoholType + " " + brand);
+		System.out.println(colddrinkName);
 	}
 
 	
