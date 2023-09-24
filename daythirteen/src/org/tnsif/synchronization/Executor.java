@@ -3,7 +3,7 @@ package org.tnsif.synchronization;
 public class Executor {
 
 	public static void main(String[] args) {
-		Account accObj=new Account(101,"Rutvik",10000);
+		Account accObj = new Account(101,"Mayur",10000);
 		System.out.println("---------Account Details-------");
 		System.out.println(accObj);
 		AccountThread threadOne =new AccountThread(accObj);
@@ -20,8 +20,8 @@ public class Executor {
 		try {
 			threadOne.join();
 			threadTwo.join();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+		} 
+		catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 		
